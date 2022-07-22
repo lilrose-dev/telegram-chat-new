@@ -2,7 +2,7 @@ const { Server } = require('socket.io')
 const express = require('express')
 const app = express()
 
-const PORT = process.env.PORT || 7000
+const PORT = process.env.PORT || 6000
 app.use(express.static(__dirname + "/public"))
 
 const server = app.listen(PORT, console.log(PORT))
