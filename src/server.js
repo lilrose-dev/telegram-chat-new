@@ -18,3 +18,5 @@ io.on('connection', socket => {
         socket.broadcast.emit('message', data)
     })
 })
+
+app.listen(PORT, console.log(PORT))
