@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Chat group</title>
+</head>
+<body>
+
+    
+        <div class="window">
+            <div class="content">
+                <div class="heading">Welcome to chat</div>
+                <p class="text">Here you can chat with your close people. So let's invite your friends and type!</p>
+            </div>
+            
+            <h4 id="h4"></h4>
+
+            <div class="wrapper">
+                <div class="chats" id="chats"></div>
+            
+                <div class="inputWrapper">
+                    <form id="form" class="new-chat">
+                        <input type="text" id="input" placeholder="Type something ..."/>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div
+    
+        </div>
+   
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
